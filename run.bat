@@ -1,0 +1,1 @@
+call mvn clean tomcat7:run -DskipTests=true
