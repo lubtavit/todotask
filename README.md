@@ -9,6 +9,10 @@ API Document
 5. /rest/v1/todo/delete/{id} ====> DELETE ====> delete task in task list
 6. /rest/v1/todo/edit/status/{id}/{status} ====> POST ====> update status in task
 
+Requirement
+
+1. jdk8
+2. maven 3.x
 
 Instruction
 
