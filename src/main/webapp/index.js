@@ -227,7 +227,7 @@ var AddEditForm = React.createClass({
 	render: function() {
 	    return (
 	      <form action="post" id="formdata">
-		      <div className={this.props.mode}>
+		      <div className='add'>
 		      	<input defaultValue={this.props.id} type='hidden' name='id' id='id' onChange={this.handleIdChnge} />
 		      	<div>
 		      		Subject : <input defaultValue={this.props.subject} type='text' name='subject' id='subject' onChange={this.handleSubjectChnge} />
